@@ -89,7 +89,7 @@ const casa = {
 
 console.log(casa);
 
-const FullStackDeveloper = {
+/*const FullStackDeveloper = {
     lenguajes: {
         frontEnd: ['Html', 'CSS', 'JavaScript'], backEnd: ['Python', 'Ruby'],
         baseDeDatos: ['SQL', 'NoSQL']
@@ -99,7 +99,12 @@ const FullStackDeveloper = {
         htmlYcss: ['https://github.com/AgustinErimbaue/proyecto-web', 'https://github.com/AgustinErimbaue/cartahtml'],
         javaScript: ['https://github.com/AgustinErimbaue/Ejemplo1', 'https://github.com/AgustinErimbaue/Ejemplo2']
     }
-};
+};*/
+
+const FullStackDeveloper = {
+    lenguajes:['Html', 'CSS', 'JavaScript','Python', 'Ruby'],
+    proyectos:['https://github.com/AgustinErimbaue/proyecto-web','https://github.com/AgustinErimbaue/cartahtml']
+}
 
 console.log(FullStackDeveloper);
 
@@ -126,7 +131,8 @@ const persona = {
 };
 console.log(persona.nombre);
 
-console.log(FullStackDeveloper.lenguajes.frontEnd[2])
+//console.log(FullStackDeveloper.lenguajes.frontEnd[2])
+console.log(FullStackDeveloper.lenguajes[2]);
 
 const portatil = {
     marca: 'Dell'
@@ -166,10 +172,10 @@ const integrantes = grupo.integrantes;
 console.log(integrantes[3]);
 
 const impresora = {
-    objeto: { tinta: 'rojo,verde,azul;' }
+    tinta: {  rojo:'rojo', verde:'verde', azul:'azul' }
 };
 
-const nivelesDetinta = impresora.objeto.tinta;
+const nivelesDetinta = impresora.tinta;
 
 console.log(nivelesDetinta);
 
